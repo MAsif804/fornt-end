@@ -14,7 +14,7 @@ import testimonials1 from "./testimonials1.png";
 import testimonials2 from "./testimonials2.png";
 import testimonials3 from "./testimonials3.png";
 import videoIcon from "./video-icon.svg";
-import vocalsProcessing from "./vocals-Processing.png";
+import vocalsProcessing from "./vocals-processing.png";
 import closeIcon from "./close-icon.svg";
 import menuIcon from "./menu-icon.svg";
 import maxing from "./maxing.png";
