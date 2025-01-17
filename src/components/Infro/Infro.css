@@ -1,0 +1,57 @@
+#infro .infro-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 4px;
+    margin-top: 60px;
+}
+
+#infro .infro-content .amount{
+    font-weight: 800;
+    font-size:40px ;
+}
+
+#infro .infro-content .type{
+    font-family: "Alegreya", serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#infro .wrapper{
+    position: relative;
+}
+
+#infro .bg-Element-2{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+/* SmartPhone varsion */
+
+@media (max-width:720px){
+
+    #infro .content-container{
+        flex-direction: column;
+        gap:80px;
+    }
+
+    #infro .content-container img{
+        height: 100px;
+    }
+
+    #infro .infro-content .amount{
+        font-size: 32px;
+    }
+
+    #infro .infro-content .type{
+        font-size: 24px;
+    }
+
+    #infro .bg-Element-2{
+        left: 32px;
+    }
+
+}
